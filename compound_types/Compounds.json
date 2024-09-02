@@ -1,0 +1,4 @@
+{
+    "Compounds.names": ["Kirk", "Picard", "Janeway", "Sisko"],
+    "Compounds.captainKirk": {"left":"Kirk", "right":37}
+}

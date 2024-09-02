@@ -1,0 +1,5 @@
+{
+    "Docker.name": "Suzy",
+    "Docker.inputFile": "../inputs_outputs/count_lines.txt",
+    "Docker.expectedCount": 2
+}

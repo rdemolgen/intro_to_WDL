@@ -1,0 +1,5 @@
+{
+    "Inputs.name": "Suzy",
+    "Inputs.inputFile": "count_lines.txt",
+    "Inputs.expectedCount": 2
+}
