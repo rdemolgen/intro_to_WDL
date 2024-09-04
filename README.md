@@ -9,5 +9,5 @@ Work through each section in the following order:
 6. docker
 7. scatter_gather
 
-Use Cromwell or miniwdl to run these workflows locally
+Use Cromwell or miniwdl to run these workflows locally.
 Some tasks/workflows will contain bugs which you will need to troubleshoot and fix :)
