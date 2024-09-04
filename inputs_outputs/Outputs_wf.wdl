@@ -1,6 +1,6 @@
 version 1.0
 
-import "Outputs-x.wdl" as outputsTask
+import "outputs.wld" as outputsTask
 
 workflow Outputs {
     input {

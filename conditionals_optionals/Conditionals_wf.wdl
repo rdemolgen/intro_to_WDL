@@ -1,6 +1,6 @@
 version 1.0
 
-import "conditionals-x.wdl" as conditionalsTask
+import "conditionals.wdl" as conditionalsTask
 
 workflow Conditionals {
     input {

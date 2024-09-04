@@ -15,6 +15,6 @@ workflow ScatterGather {
     }
 
     output {
-        Array[String] helloGather = helloScatter.greeting
+        String helloGather = helloScatter.greeting
     }
 }

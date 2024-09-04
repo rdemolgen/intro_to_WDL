@@ -1,6 +1,6 @@
 version 1.0
 
-import "inputs-x.wdl" as inputsTask
+import "inputs.wdl" as inputsTask
 
 workflow Inputs {
     input {

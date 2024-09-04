@@ -1,6 +1,6 @@
 version 1.0
 
-import "helloWorld-x.wdl" as helloWorldTask
+import "helloWorld.wdl" as helloWorldTask
 
 workflow Greetings {
     input {
@@ -8,12 +8,12 @@ workflow Greetings {
         String nameB
     }
 
-    call helloWorldTask.helloWorld as helloA {
+    call helloWorldTask.helloWorld {
         input:
             helloName = nameA
     }
 
-    call helloWorldTask.helloWorld as helloB {
+    call helloWorldTask.helloWorld {
         input:
             helloName = nameB
     }
